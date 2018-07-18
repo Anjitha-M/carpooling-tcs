@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	
+		<title>Login V12</title>
+	
+		<meta charset="UTF-8">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->	
+	
+		<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+<!--===============================================================================================-->	
+	
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+
+<!--===============================================================================================-->
+	
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+	
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!--===============================================================================================-->
+<style>
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+</style>
+	
+</head>
+
+        <body>
+	
+	
+	<div class="limiter">
+		
+	<div class="container-login100" style="background-image: url('images/img-01.jpg');">
+			
+	<div class="wrap-login100 ">
+				
+	<form class="login100-form validate-form">
+									
+	<span class="login100-form-title p-t-20 p-b-45">
+NEED RIDE</span>
+
+					
+	<div class="wrap-input100 validate-input m-b-10" data-validate = "Location is required">
+
+	<input class="input100" type="text" name="Location" placeholder="Location">
+
+</div>
+
+					
+	<div class="wrap-input100 validate-input m-b-10" data-validate = "Starting time is required">
+						
+	<input class="input100" type="Starting time" name="pass" placeholder="Starting time">
+
+</div>					
+	<div class="container-login100-form-btn p-t-10">
+
+	<center>	
+		<label class="container"><b>Morning</b>
+  			<input type="radio" checked="checked" name="radio">
+ 	        	<span class="checkmark"></span>
+		</label>
+		<label class="container"><b>Evening</b>
+ 			<input type="radio" name="radio">
+  			<span class="checkmark"></span>
+		</label>
+	<button class="login100-form-btn">
+Search</button>
+										
+	
+</form>
+</div></div>
+</div>
+	
+	
+
+	
+
+<!--===============================================================================================-->	
+	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+<!--===============================================================================================-->
+	
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!--===============================================================================================-->
+	
+	<script src="vendor/select2/select2.min.js"></script>
+
+<!--===============================================================================================-->
+	
+	<script src="js/main.js"></script>
+
+
+	</body>
+
+</html>
